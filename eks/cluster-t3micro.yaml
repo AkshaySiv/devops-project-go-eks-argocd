@@ -6,8 +6,8 @@ metadata:
   region: ap-south-1
 
 nodeGroups:
-  - name: t2micro-ng
-    instanceType: t2.micro
+  - name: t3micro-ng
+    instanceType: t3.micro
     desiredCapacity: 2
     minSize: 1
     maxSize: 3
