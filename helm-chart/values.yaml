@@ -2,6 +2,6 @@ replicaCount: 2
 
 image :
   repository: akshaysiv/go-project
-  tag: v1
-  pullPolicy: IfNotPresent
+  tag: v2
+  pullPolicy: always
 
