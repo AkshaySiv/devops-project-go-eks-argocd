@@ -3,11 +3,14 @@ kind: ClusterConfig
 
 metadata:
   name: dev-cluster
-  region: ap-south-1
+  region: us-east-1
+
+iam:
+  serviceRoleARN: arn:aws:iam::058264184252:role/eksClusterRole
 
 nodeGroups:
-  - name: t3micro-ng
-    instanceType: t3.micro
+  - name: medium-ng
+    instanceType: t3.medium
     desiredCapacity: 2
     minSize: 1
     maxSize: 3

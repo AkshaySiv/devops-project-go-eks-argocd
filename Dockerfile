@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY src .
 
-# Explicitly build for linux/amd64 architecture
 RUN go build -o main .
 
 FROM gcr.io/distroless/base
