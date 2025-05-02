@@ -6,7 +6,7 @@ metadata:
   region: us-east-1
 
 iam:
-  serviceRoleARN: arn:aws:iam::058264184252:role/eksClusterRole
+  serviceRoleARN: arn:aws:iam::730335277320:role/eksClusterRole
 
 nodeGroups:
   - name: medium-ng
