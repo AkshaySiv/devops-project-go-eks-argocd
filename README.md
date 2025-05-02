@@ -3,7 +3,7 @@
 ## 🌟 Overview
 This project showcases a complete DevOps workflow leveraging **Go**, **Amazon EKS (Elastic Kubernetes Service)**, **ArgoCD**, **Helm Charts**, and **GitHub Actions**. It demonstrates continuous integration and delivery pipelines for deploying a sample Go application.
 
-![alt text](images/flowdiag.png)
+![alt text](images/architecture.png)
 
 ## ✨ Features
 - 🛠️ **Go Application**: A lightweight Go application designed for deployment.
