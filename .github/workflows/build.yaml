@@ -54,6 +54,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TOKEN }}
 
       - name: Update Helm chart values
         run: |
@@ -66,5 +68,5 @@ jobs:
           git add helm-chart/values.yaml
           git commit -m "Update Helm chart values with new image tag"
           git push origin main
-          
+
           
