@@ -2,6 +2,6 @@ replicaCount: 2
 
 image :
   repository: akshaysiv/go-project
-  tag: bcac27513521e4cafe676f4b5e8f0bdc458e5a0a
+  tag: c1fbca0c6f14dfb93637d33ba43550dfc8680200
   pullPolicy: IfNotPresent
 
